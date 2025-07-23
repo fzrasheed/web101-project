@@ -8,6 +8,7 @@ An engaging single-page website created to promote a fictional Halal Street Food
 This project involved building a fully responsive and user-friendly event website featuring dynamic RSVP functionality, light/dark theme toggling, and motion-reduction options. It highlights the practical application of HTML, CSS, and JavaScript to create a seamless and interactive user experience.
 
 🌐 Live 
+
 Check out the live version of the website here:
 👉 https://fzrasheed.github.io/web101-project/
 
