@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Halal Street Food Festival</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-particles" id="particles"></div>
+
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-icon">🥘</div>
+                HalalFest
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#rsvp">RSVP</a></li>
+                    <li><button class="nav-button" id="theme-toggle">🌙 Dark</button></li>
+                    <li><button class="nav-button" id="reduce-motion-toggle">🎭 Motion</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>HALAL STREET FOOD FESTIVAL</h1>
+            <h2>A Delicious Celebration of Global Halal Cuisine</h2>
+            <div class="hero-date">📅 July 15-17, 2025 • Chicago, IL</div>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">🎫 Get Tickets</button>
+                <button class="btn btn-secondary">🏪 Become a Vendor</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience the Festival</h2>
+            <p style="text-align: center; font-size: 1.2rem; color: var(--text-gray); max-width: 600px; margin: 0 auto;">
+                Join us for Chicago's most vibrant celebration of halal cuisine, featuring authentic flavors from around the world, live entertainment, and unforgettable experiences.
+            </p>
+            
+            <div class="about-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Global Flavors</h3>
+                    <p>Discover authentic halal dishes from dozens of cultures - from Middle Eastern shawarma to South Asian biryani, Turkish kebabs to Moroccan tagines.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎭</div>
+                    <h3>Live Entertainment</h3>
+                    <p>Enjoy cultural performances, live cooking demonstrations, traditional music, and interactive experiences throughout the festival.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Community Celebration</h3>
+                    <p>Connect with fellow food lovers, meet local vendors, and celebrate the rich diversity of Chicago's halal food community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="section">
+        <div class="container">
+            <h2 class="section-title">Festival Schedule</h2>
+            <div class="schedule-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>🎉 Grand Opening Ceremony</h3>
+                        <p>Join us for the official festival opening with welcome speeches, ribbon cutting, and the first taste of what's to come!</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>👨‍🍳 Live Cooking Demonstrations</h3>
+                        <p>Watch master chefs prepare signature halal dishes and learn authentic cooking techniques from different cultures.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>🎨 Activities</h3>
+                        <p>Experience henna art, traditional crafts, kids' activities, and interactive cultural exhibitions.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>🎤 Live Performances</h3>
+                        <p>Enjoy cultural dances and entertainment from local and international artists.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rsvp" class="section">
+        <div class="container">
+            <h2 class="section-title">Join the Celebration</h2>
+            <div class="rsvp-container">
+                <div class="rsvp-form">
+                    <h3>RSVP for Free Entry</h3>
+                    <p style="margin-bottom: 2rem; color: var(--text-gray);">Reserve your spot and help us prepare the perfect festival experience!</p>
+                    
+                    <form id="rsvp-form">
+                        <div class="form-group">
+                            <input type="text" class="form-input" id="name" placeholder="Your Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" id="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-input" id="age" placeholder="Age" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">✨ RSVP Now</button>
+                    </form>
+                </div>
+                
+                <div class="guest-list">
+                    <h3>Festival Attendees</h3>
+                    <p style="margin-bottom: 1rem; color: var(--text-gray);">Join <span id="rsvp-count">3</span> others who are coming!</p>
+                    <div id="rsvp-list"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="links" class="section">
+        <div class="container">
+            <h2 class="section-title">Useful Resources</h2>
+            <div class="links-grid">
+                <a href="https://en.wikipedia.org/wiki/Dhabihah" target="_blank" class="link-card">
+                    <div class="link-icon">📖</div>
+                    <h3>What is Halal?</h3>
+                    <p>Learn about halal dietary laws and what makes food halal-certified.</p>
+                    <div class="link-arrow">→</div>
+                </a>
+                <a href="https://www.ciogc.org/" target="_blank" class="link-card">
+                    <div class="link-icon">🕌</div>
+                    <h3>Chicago Muslim Community</h3>
+                    <p>Discover more about Chicago's vibrant Muslim community and upcoming events.</p>
+                    <div class="link-arrow">→</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 HalalFest Chicago • Celebrating Community Through Food</p>
+    </footer>
+
+    <div id="rsvp-modal" class="modal">
+        <div class="modal-content">
+            <div class="success-icon">✓</div>
+            <h3 id="modal-message">Welcome to HalalFest!</h3>
+            <p>We're excited to see you there. Check your email for festival updates!</p>
+            <button class="btn btn-primary" id="close-modal" style="margin-top: 1rem;">Awesome!</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
