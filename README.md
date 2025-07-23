@@ -12,7 +12,9 @@ This project involved building a fully responsive and user-friendly event websit
 Check out the live version of the website here:
 👉 https://fzrasheed.github.io/web101-project/
 
+
 ✨ Features
+
 🧩 Core Functionality
 
 Responsive Design – Optimized across desktop, tablet, and mobile devices
@@ -44,6 +46,7 @@ CSS Grid & Flexbox - Modern layout techniques
 CSS Animations - Smooth transitions and engaging micro-interactions
 
 📁 Project Structure
+
 web101-project/
 ├── README.md           # Project documentation
 ├── index.html          # Main HTML file
